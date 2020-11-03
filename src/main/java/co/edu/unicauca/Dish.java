@@ -18,13 +18,18 @@ public class Dish {
     private int price;
     private int id;
    
-
+    /**
+     * Costructor
+     * @param id identificador
+     * @param name nombre 
+     * @param price costo
+     */
     public Dish(int id, String name, int price) {
         this.name = name;
         this.id=id;
         this.price = price;    
     }
-
+    //Getters y Setters
     public String getName() {
         return name;
     }

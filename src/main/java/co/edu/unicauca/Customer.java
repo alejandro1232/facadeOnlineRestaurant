@@ -16,7 +16,15 @@ public class Customer {
     private String address;
     private String mobile;
     private String city;
-
+    
+    /**
+     * Constructor
+     * @param id
+     * @param name
+     * @param address
+     * @param mobile
+     * @param city 
+     */
     public Customer(int id, String name, String address, String mobile, String city) {
         this.id = id;
         this.name = name;
@@ -28,6 +36,7 @@ public class Customer {
     public Customer() {
     }
         
+    //Getters y Setters
     public int getId() {
         return id;
     }

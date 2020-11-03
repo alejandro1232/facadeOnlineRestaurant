@@ -20,7 +20,7 @@ public class Factory {
         /**
      * Clase singleton
      *
-     * @return
+     * @return la intancia de factory
      */
     public static Factory getInstance() {
 
@@ -29,6 +29,11 @@ public class Factory {
         }
         return instance;
     }
+    /**
+     * retorna el repositorio solicitado
+     * @param type
+     * @return 
+     */
     
      public IOrderRepository getRepository(String type) {
         IOrderRepository repo = null;

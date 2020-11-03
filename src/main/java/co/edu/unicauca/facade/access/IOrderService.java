@@ -5,14 +5,12 @@
  */
 package co.edu.unicauca.facade.access;
 
-import co.edu.unicauca.Order;
-
 /**
  *
  * @author soces
  */
-public interface IOrderRepository {
+public interface IOrderService {
 
-    public void createOrder(Order order);
-      
+    public void save(IOrderRepository order);
+
 }

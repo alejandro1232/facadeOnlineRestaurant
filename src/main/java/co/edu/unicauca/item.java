@@ -21,7 +21,7 @@ class item {
         this.dish = dish;
         this.amount = amount;
     }
-
+    //Getters y Setters
     public Dish getDish() {
         return dish;
     }
